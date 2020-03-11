@@ -1,37 +1,25 @@
-## Welcome to GitHub Pages
+## Rampage Networks Development
 
-You can use the [editor on GitHub](https://github.com/crossfiredeluxxe/rampagenetworksGIT/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+This page serves as the first line for updates and progress into the development and modification of tools and resources.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Pterodactyl
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+As of recently, I have grown tired of dealing with multiple types of authentication for resources. As some may know, I use the Pterodactyl Panel from https://pterodactyl.io/ After spending much time handling the panel and daemon, I have grown tired of managing multiple usernames and passwords, and got the wonderful idea to implement LDAP authentication. To sum up current progress, it mostly works, but tends to break. Currently the implementation runs off of authenticating LDAP through the daemon's host (currently CentOS 7 in testing) and simply authenticates as a standard system user. The web panel has also been modified to show the status of the connection (not yet functioning) to the Active Directory server.
 
 ```markdown
-Syntax highlighted code block
+Current Progress:
+- Install Pterodactyl daemon & panel entirely ✅
+- Deploy server successfully ✅
+- Connect host to Active Directory server ✅
+- Setup Group based permissions ❌
+- Finish configuring status inside web panel ❌
+- 
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+### FiveM
 
-1. Numbered
-2. List
+Oh boy this never stops breaking......
 
-**Bold** and _Italic_ and `Code` text
+### Contact
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/crossfiredeluxxe/rampagenetworksGIT/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Want to reach out and see if certain projects are underway? Send me an email at contact@rampagenetworks.com
